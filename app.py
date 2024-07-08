@@ -28,6 +28,7 @@ groq_api_key=os.getenv('GROQ_API_KEY')
 os.environ['GOOGLE_API_KEY']=os.getenv('GOOGLE_API_KEY')    
 #print(os.environ)
 
+# Streamlit App Setup
 st.title("Gemma Model Document Q&A")
 llm=ChatGroq(groq_api_key=groq_api_key,model_name="gemma-7b-it")
 # print(llm)
