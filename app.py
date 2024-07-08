@@ -24,7 +24,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # load the GROQ and Google API key from the environment file
-groq_api_key=os.getenv('GROQ_API_KEY1')
+groq_api_key=os.getenv('GROQ_API_KEY2')
 os.environ['GOOGLE_API_KEY']=os.getenv('GOOGLE_API_KEY')    
 #print(os.environ)
 
